@@ -1,8 +1,9 @@
 var app = {
     mapUrlView: ['http://', 'https://', 'unicostage.azurewebsites.net', 'reshop-stage.linx.com.br', 'localhost:52401',
-                 'www.unicosistemas.com.br', 'reshop.linx.com.br'],
+                 'www.unicosistemas.com.br', 'reshop.linx.com.br', 'unicostage-release.azurewebsites.net', 
+                 'unicostage-dev.azurewebsites.net', 'unicostage-test.azurewebsites.net', 'reshop-v1.linx.com.br'],
     mapUrlFile: ['/api/', 'api/', 'fidelidade/', 'ecommerce/', 'statistics/', 'posdata/', 'setup/', 'account/',
-                  'salesmanapp/', 'OracleCloudCommerce/', 'LinxCommerce/web-api/v1/Sales/Delivery/FreightQuote/API.svc/web/Get/',
+                  'salesmanapp/', 'integration/', 'OracleCloudCommerce/', 'LinxCommerce/web-api/v1/Sales/Delivery/FreightQuote/API.svc/web/Get/',
                   'occ-order-shipping/', 'ccstorex/custom/v1/public/api-hml/occ-store-delivery/store/'],
     rows: [],
     cols: {
